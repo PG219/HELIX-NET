@@ -1,0 +1,7 @@
+id	filename	md5	size	state
+21f04ec9-eba9-4943-9cef-ef039e48ffbf	21f04ec9-eba9-4943-9cef-ef039e48ffbf/6ae26aeb-cd6a-41c0-bf35-f448e8ed924b.methylation_array.sesame.level3betas.txt	d7ad1d1b22d80a8582bf6fcca0e52038	12622110	validated
+c23d9f60-daf9-4462-a071-e24e92b49a38	c23d9f60-daf9-4462-a071-e24e92b49a38/0efea531-7af0-4c57-a195-659c1c6c7b8b.methylation_array.sesame.level3betas.txt	19007cb550a9bde9099e532ad8b7f61f	12998668	validated
+72fd27ae-32f6-45f8-934d-a9bcae32700b	72fd27ae-32f6-45f8-934d-a9bcae32700b/fe829c72-470e-4ea9-9fd1-57e1f6661ba5.methylation_array.sesame.level3betas.txt	85b586aae3cdc69152c3b78822be08fa	12963758	validated
+897dc9e9-59c9-489f-bd02-ad0415eb8bbe	897dc9e9-59c9-489f-bd02-ad0415eb8bbe/c6523d8c-7e0e-46fb-91e8-400ad31bccc0.methylation_array.sesame.level3betas.txt	f8fd9b92274d9ee74def6fdab5112bf5	13102447	validated
+5ceff90e-184d-41ff-8e1a-bbe1ed30c1c4	5ceff90e-184d-41ff-8e1a-bbe1ed30c1c4/25f1573e-44ec-4681-9421-b9e591be4cc1.methylation_array.sesame.level3betas.txt	7d55ebcfeb68a9cafb15e9f310f2cc84	13008939	validated
+aa67cdc5-8ee9-4d63-8f00-d92234b3baf4	aa67cdc5-8ee9-4d63-8f00-d92234b3baf4/6d64316d-ed88-49b6-b598-6b21c6abe0b0.methylation_array.sesame.level3betas.txt	5826a42a4edf4d04b2e84c87036ee923	12763590	validated
