@@ -9,15 +9,31 @@
 *.Rout
 
 # ==========================================
+# Python Specific Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+env/
+.env
+
+# ==========================================
 # Datasets, Raw Downloads & Binary Archives
 # ==========================================
-data/
+/data/
 *.tar.gz
 *.zip
 *.rds
 *.bigWig
 *.bw
 *.bed
+*.csv
+!outputs/tables/*.csv
 test.txt
 Rplot.png
 
