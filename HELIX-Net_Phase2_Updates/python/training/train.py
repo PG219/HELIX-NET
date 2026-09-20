@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from config import CURRENT_DATA_DIR, LEARNING_RATE, PAM50_CLASS_MAPPING
+from config import DATA_SOURCE, CURRENT_DATA_DIR, LEARNING_RATE, PAM50_CLASS_MAPPING
 from graphs.build_graph import build_patient_graphs
 from models.helix_net import HelixNet
 from models.classification_head import ClassificationHead
@@ -32,11 +32,25 @@ def _ensure_cv_splits_exist():
     X, y, barcodes = load_data()
     generate_and_save_splits(X, y, barcodes)
 
-def run_training(epochs: int = 5, batch_size: int = 16, use_fusion: bool = True):
+def run_training(epochs: int = 40, batch_size: int = 16, use_fusion: bool = True):
     _ensure_cv_splits_exist()
 
     print("Loading graphs...")
     graphs = build_patient_graphs()
+
+    # Compute class weights from the ACTUAL training label distribution to counteract
+    # majority-class collapse. Previously (5 epochs, no weighting) HelixNet predicted only
+    # the majority class (LumA) in every single fold on real data -- a known failure mode
+    # for GNNs on small, imbalanced cohorts, not a mysterious bug. This doesn't guarantee
+    # good performance at n=42, but removes the single most avoidable cause of it.
+    all_labels = np.array([g.y.item() for g in graphs])
+    class_counts = np.bincount(all_labels, minlength=len(PAM50_CLASS_MAPPING))
+    class_counts = np.where(class_counts == 0, 1, class_counts)  # avoid div-by-zero for absent classes
+    class_weights = 1.0 / class_counts
+    class_weights = class_weights / class_weights.sum() * len(class_counts)
+    class_weights_tensor = torch.tensor(class_weights, dtype=torch.float32)
+    print(f"Class weights (inverse-frequency, from {len(graphs)} patients): "
+          f"{dict(zip(PAM50_CLASS_MAPPING.keys(), class_weights.round(2)))}")
     
     # Map barcode -> graph for easy fold assignment
     graph_map = {g.patient_barcode: g for g in graphs}
@@ -47,8 +61,8 @@ def run_training(epochs: int = 5, batch_size: int = 16, use_fusion: bool = True)
     results = []
     model_name = "HelixNet_Full" if use_fusion else "HelixNet_Ablated"
     
-    print("\nStarting Cross-Validation Training (Synthetic Data)")
-    print(f"NOTE: Training {model_name} for a fixed number of {epochs} epochs just to check mechanics and loss convergence.")
+    print(f"\nStarting Cross-Validation Training ({DATA_SOURCE.capitalize()} Data)")
+    print(f"Training {model_name} for {epochs} epochs.")
     
     for fold_name, fold_data in splits.items():
         print(f"\n--- {fold_name} ---")
@@ -63,7 +77,7 @@ def run_training(epochs: int = 5, batch_size: int = 16, use_fusion: bool = True)
         backbone = HelixNet(use_fusion=use_fusion)
         head = ClassificationHead()
         
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
         # Optimize both modules
         optimizer = Adam(list(backbone.parameters()) + list(head.parameters()), lr=LEARNING_RATE)
         
@@ -154,11 +168,11 @@ def run_training(epochs: int = 5, batch_size: int = 16, use_fusion: bool = True)
     final_df = pd.concat([df_results, avg_results], ignore_index=True)
     
     print("\n" + "="*50)
-    print(f"{model_name} Evaluation Results (Synthetic Data)")
+    print(f"{model_name} Evaluation Results ({DATA_SOURCE.capitalize()} Data)")
     print("="*50)
     print(final_df.to_string(index=False))
     
     return final_df
 
 if __name__ == "__main__":
-    run_training(epochs=5, use_fusion=True)
+    run_training(epochs=40, use_fusion=True)

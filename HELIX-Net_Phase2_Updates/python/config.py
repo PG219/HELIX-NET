@@ -32,10 +32,10 @@ LEARNING_RATE = 1e-3
 PROXIMITY_THRESHOLD_KB = 50
 
 # Class mapping for classification head
+# Note: HER2 (n=1) is filtered out upstream by filter_singleton_classes()
 PAM50_CLASS_MAPPING = {
     'LumA': 0,
     'LumB': 1,
-    'HER2': 2,
-    'Basal': 3,
-    'Normal': 4
+    'Basal': 2,
+    'Normal': 3
 }

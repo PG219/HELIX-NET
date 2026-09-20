@@ -15,6 +15,11 @@ def load_dataset():
         return generate_synthetic_data()
     elif DATA_SOURCE == "real":
         from data.real_loader import load_real_data
-        return load_real_data(use_atac=USE_ATAC)
+        from data.filter_classes import filter_singleton_classes
+        df_meth, df_anno, df_pam50, df_atac = load_real_data(use_atac=USE_ATAC)
+        df_pam50, df_meth, df_atac, dropped = filter_singleton_classes(
+            df_pam50, df_meth, df_atac, min_class_size=2
+        )
+        return df_meth, df_anno, df_pam50, df_atac
     else:
         raise ValueError(f"Unknown DATA_SOURCE in config.py: {DATA_SOURCE}")

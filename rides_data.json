@@ -1,0 +1,3646 @@
+{
+  "drivers": [
+    {
+      "driver_id": 1,
+      "name": "Driver 1",
+      "vehicle_type": "Sedan",
+      "rating": 4.8,
+      "rides": [
+        {
+          "ride_id": 1,
+          "passenger_id": 1073,
+          "start_time": "2026-08-13 18:40:00",
+          "end_time": "2026-08-13 19:09:00",
+          "start_location": {
+            "lat": 13.0038,
+            "lon": 77.6473
+          },
+          "end_location": {
+            "lat": 12.9269,
+            "lon": 77.6314
+          },
+          "distance_km": 42.6,
+          "fare": 393.31,
+          "payment_type": "cash",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 2,
+          "passenger_id": 1153,
+          "start_time": "2026-08-14 21:16:00",
+          "end_time": "2026-08-14 21:40:00",
+          "start_location": {
+            "lat": 13.0121,
+            "lon": 77.6808
+          },
+          "end_location": {
+            "lat": 12.9277,
+            "lon": 77.6978
+          },
+          "distance_km": 56.85,
+          "fare": 111.83,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 3,
+          "passenger_id": 1161,
+          "start_time": "2026-08-19 13:40:00",
+          "end_time": "2026-08-19 13:49:00",
+          "start_location": {
+            "lat": 12.9776,
+            "lon": 77.637
+          },
+          "end_location": {
+            "lat": 12.9008,
+            "lon": 77.6666
+          },
+          "distance_km": 1.43,
+          "fare": 205.74,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 4,
+          "passenger_id": 1135,
+          "start_time": "2026-08-07 17:15:00",
+          "end_time": "2026-08-07 18:17:00",
+          "start_location": {
+            "lat": 13.0915,
+            "lon": 77.6775
+          },
+          "end_location": {
+            "lat": 13.028,
+            "lon": 77.6942
+          },
+          "distance_km": 37.51,
+          "fare": 300.07,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 5,
+          "passenger_id": 1098,
+          "start_time": "2026-08-16 15:37:00",
+          "end_time": "2026-08-16 16:31:00",
+          "start_location": {
+            "lat": 12.9343,
+            "lon": 77.5522
+          },
+          "end_location": {
+            "lat": 13.0029,
+            "lon": 77.6351
+          },
+          "distance_km": 58.99,
+          "fare": 619.66,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 6,
+          "passenger_id": 1117,
+          "start_time": "2026-09-17 00:45:00",
+          "end_time": "2026-09-17 00:52:00",
+          "start_location": {
+            "lat": 12.9481,
+            "lon": 77.5086
+          },
+          "end_location": {
+            "lat": 12.9281,
+            "lon": 77.5433
+          },
+          "distance_km": 29.28,
+          "fare": 198.06,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 7,
+          "passenger_id": 1156,
+          "start_time": "2026-08-17 08:16:00",
+          "end_time": "2026-08-17 09:33:00",
+          "start_location": {
+            "lat": 13.0127,
+            "lon": 77.5467
+          },
+          "end_location": {
+            "lat": 12.918,
+            "lon": 77.5171
+          },
+          "distance_km": 19.01,
+          "fare": 550.57,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 8,
+          "passenger_id": 1117,
+          "start_time": "2026-08-22 02:49:00",
+          "end_time": "2026-08-22 04:02:00",
+          "start_location": {
+            "lat": 13.0238,
+            "lon": 77.6252
+          },
+          "end_location": {
+            "lat": 12.9434,
+            "lon": 77.5433
+          },
+          "distance_km": 23.95,
+          "fare": 756.84,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 9,
+          "passenger_id": 1099,
+          "start_time": "2026-08-10 21:32:00",
+          "end_time": "2026-08-10 22:33:00",
+          "start_location": {
+            "lat": 12.9906,
+            "lon": 77.6072
+          },
+          "end_location": {
+            "lat": 13.0075,
+            "lon": 77.5003
+          },
+          "distance_km": 21.98,
+          "fare": 509.1,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 10,
+          "passenger_id": 1028,
+          "start_time": "2026-08-18 12:01:00",
+          "end_time": "2026-08-18 13:05:00",
+          "start_location": {
+            "lat": 13.0838,
+            "lon": 77.6925
+          },
+          "end_location": {
+            "lat": 12.9467,
+            "lon": 77.6449
+          },
+          "distance_km": 54.31,
+          "fare": 502.61,
+          "payment_type": "cash",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 11,
+          "passenger_id": 1165,
+          "start_time": "2026-09-11 02:12:00",
+          "end_time": "2026-09-11 03:11:00",
+          "start_location": {
+            "lat": 12.9297,
+            "lon": 77.5161
+          },
+          "end_location": {
+            "lat": 12.9928,
+            "lon": 77.6559
+          },
+          "distance_km": 44.28,
+          "fare": 662.92,
+          "payment_type": "card",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 12,
+          "passenger_id": 1156,
+          "start_time": "2026-08-07 23:19:00",
+          "end_time": "2026-08-08 00:20:00",
+          "start_location": {
+            "lat": 12.9376,
+            "lon": 77.5058
+          },
+          "end_location": {
+            "lat": 12.9271,
+            "lon": 77.636
+          },
+          "distance_km": 56.15,
+          "fare": 462.87,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 13,
+          "passenger_id": 1189,
+          "start_time": "2026-09-13 08:18:00",
+          "end_time": "2026-09-13 09:05:00",
+          "start_location": {
+            "lat": 12.9372,
+            "lon": 77.6459
+          },
+          "end_location": {
+            "lat": 12.9824,
+            "lon": 77.5828
+          },
+          "distance_km": 29.34,
+          "fare": 370.62,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 14,
+          "passenger_id": 1037,
+          "start_time": "2026-08-16 09:39:00",
+          "end_time": "2026-08-16 09:49:00",
+          "start_location": {
+            "lat": 12.9519,
+            "lon": 77.6484
+          },
+          "end_location": {
+            "lat": 13.0495,
+            "lon": 77.6836
+          },
+          "distance_km": 47.8,
+          "fare": 150,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 15,
+          "passenger_id": 1040,
+          "start_time": "2026-09-07 13:21:00",
+          "end_time": "2026-09-07 13:51:00",
+          "start_location": {
+            "lat": 12.9225,
+            "lon": 77.6486
+          },
+          "end_location": {
+            "lat": 13.0463,
+            "lon": 77.677
+          },
+          "distance_km": 31.51,
+          "fare": 688.95,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 16,
+          "passenger_id": 1094,
+          "start_time": "2026-09-05 21:19:00",
+          "end_time": "2026-09-05 22:29:00",
+          "start_location": {
+            "lat": 12.9673,
+            "lon": 77.5122
+          },
+          "end_location": {
+            "lat": 12.9903,
+            "lon": 77.6677
+          },
+          "distance_km": 34.9,
+          "fare": 315.01,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 17,
+          "passenger_id": 1155,
+          "start_time": "2026-09-14 22:43:00",
+          "end_time": "2026-09-14 23:01:00",
+          "start_location": {
+            "lat": 12.9371,
+            "lon": 77.5097
+          },
+          "end_location": {
+            "lat": 12.9491,
+            "lon": 77.5702
+          },
+          "distance_km": 10.38,
+          "fare": 278.07,
+          "payment_type": "card",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 18,
+          "passenger_id": 1186,
+          "start_time": "2026-08-05 07:29:00",
+          "end_time": "2026-08-05 08:54:00",
+          "start_location": {
+            "lat": 12.9141,
+            "lon": 77.5423
+          },
+          "end_location": {
+            "lat": 13.0099,
+            "lon": 77.5964
+          },
+          "distance_km": 10.41,
+          "fare": 162.18,
+          "payment_type": "card",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 19,
+          "passenger_id": 1125,
+          "start_time": "2026-09-02 22:59:00",
+          "end_time": "2026-09-02 23:16:00",
+          "start_location": {
+            "lat": 13.0597,
+            "lon": 77.5221
+          },
+          "end_location": {
+            "lat": 13.008,
+            "lon": 77.6142
+          },
+          "distance_km": 37.52,
+          "fare": 586.14,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 20,
+          "passenger_id": 1135,
+          "start_time": "2026-08-22 23:59:00",
+          "end_time": "2026-08-23 00:34:00",
+          "start_location": {
+            "lat": 12.941,
+            "lon": 77.685
+          },
+          "end_location": {
+            "lat": 13.0773,
+            "lon": 77.5273
+          },
+          "distance_km": 47.34,
+          "fare": 389.98,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 21,
+          "passenger_id": 1055,
+          "start_time": "2026-08-19 12:44:00",
+          "end_time": "2026-08-19 13:35:00",
+          "start_location": {
+            "lat": 12.91,
+            "lon": 77.5375
+          },
+          "end_location": {
+            "lat": 13.0965,
+            "lon": 77.5657
+          },
+          "distance_km": 11.09,
+          "fare": 416.19,
+          "payment_type": "card",
+          "ride_rating": 5
+        }
+      ]
+    },
+    {
+      "driver_id": 2,
+      "name": "Driver 2",
+      "vehicle_type": "SUV",
+      "rating": 4.71,
+      "rides": [
+        {
+          "ride_id": 22,
+          "passenger_id": 1083,
+          "start_time": "2026-08-22 16:18:00",
+          "end_time": "2026-08-22 17:19:00",
+          "start_location": {
+            "lat": 12.9968,
+            "lon": 77.5889
+          },
+          "end_location": {
+            "lat": 12.9121,
+            "lon": 77.5655
+          },
+          "distance_km": 52.83,
+          "fare": 747.95,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 23,
+          "passenger_id": 1053,
+          "start_time": "2026-08-09 08:39:00",
+          "end_time": "2026-08-09 09:37:00",
+          "start_location": {
+            "lat": 12.9186,
+            "lon": 77.5423
+          },
+          "end_location": {
+            "lat": 13.0861,
+            "lon": 77.5594
+          },
+          "distance_km": 39.54,
+          "fare": 725.8,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 24,
+          "passenger_id": 1152,
+          "start_time": "2026-09-04 05:32:00",
+          "end_time": "2026-09-04 06:10:00",
+          "start_location": {
+            "lat": 13.087,
+            "lon": 77.5717
+          },
+          "end_location": {
+            "lat": 13.0684,
+            "lon": 77.6445
+          },
+          "distance_km": 45.29,
+          "fare": 742.99,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 25,
+          "passenger_id": 1035,
+          "start_time": "2026-08-16 11:19:00",
+          "end_time": "2026-08-16 12:05:00",
+          "start_location": {
+            "lat": 13.063,
+            "lon": 77.5584
+          },
+          "end_location": {
+            "lat": 12.9818,
+            "lon": 77.5182
+          },
+          "distance_km": 48.12,
+          "fare": 319.84,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 26,
+          "passenger_id": 1138,
+          "start_time": "2026-08-28 19:51:00",
+          "end_time": "2026-08-28 20:36:00",
+          "start_location": {
+            "lat": 12.9147,
+            "lon": 77.5329
+          },
+          "end_location": {
+            "lat": 13.048,
+            "lon": 77.5951
+          },
+          "distance_km": 41.45,
+          "fare": 763.64,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 27,
+          "passenger_id": 1035,
+          "start_time": "2026-08-09 11:49:00",
+          "end_time": "2026-08-09 13:18:00",
+          "start_location": {
+            "lat": 13.0232,
+            "lon": 77.685
+          },
+          "end_location": {
+            "lat": 12.978,
+            "lon": 77.5576
+          },
+          "distance_km": 6.35,
+          "fare": 291.53,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 28,
+          "passenger_id": 1046,
+          "start_time": "2026-08-29 08:44:00",
+          "end_time": "2026-08-29 09:58:00",
+          "start_location": {
+            "lat": 13.0659,
+            "lon": 77.6162
+          },
+          "end_location": {
+            "lat": 12.994,
+            "lon": 77.573
+          },
+          "distance_km": 17.53,
+          "fare": 499.79,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 29,
+          "passenger_id": 1193,
+          "start_time": "2026-09-09 04:56:00",
+          "end_time": "2026-09-09 05:37:00",
+          "start_location": {
+            "lat": 13.0442,
+            "lon": 77.5982
+          },
+          "end_location": {
+            "lat": 13.093,
+            "lon": 77.6814
+          },
+          "distance_km": 33.52,
+          "fare": 106.7,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 30,
+          "passenger_id": 1147,
+          "start_time": "2026-08-26 08:27:00",
+          "end_time": "2026-08-26 09:56:00",
+          "start_location": {
+            "lat": 12.9772,
+            "lon": 77.525
+          },
+          "end_location": {
+            "lat": 13.0163,
+            "lon": 77.548
+          },
+          "distance_km": 43.59,
+          "fare": 159.45,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 31,
+          "passenger_id": 1171,
+          "start_time": "2026-08-14 01:56:00",
+          "end_time": "2026-08-14 02:22:00",
+          "start_location": {
+            "lat": 13.0623,
+            "lon": 77.6086
+          },
+          "end_location": {
+            "lat": 12.9145,
+            "lon": 77.5933
+          },
+          "distance_km": 21.05,
+          "fare": 567.44,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 32,
+          "passenger_id": 1053,
+          "start_time": "2026-08-11 13:08:00",
+          "end_time": "2026-08-11 13:42:00",
+          "start_location": {
+            "lat": 12.9828,
+            "lon": 77.5454
+          },
+          "end_location": {
+            "lat": 12.9199,
+            "lon": 77.5966
+          },
+          "distance_km": 39.36,
+          "fare": 741,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 33,
+          "passenger_id": 1114,
+          "start_time": "2026-09-10 04:39:00",
+          "end_time": "2026-09-10 05:54:00",
+          "start_location": {
+            "lat": 12.9124,
+            "lon": 77.5862
+          },
+          "end_location": {
+            "lat": 12.9794,
+            "lon": 77.6394
+          },
+          "distance_km": 39.9,
+          "fare": 355.51,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 34,
+          "passenger_id": 1149,
+          "start_time": "2026-08-04 02:50:00",
+          "end_time": "2026-08-04 02:57:00",
+          "start_location": {
+            "lat": 12.9158,
+            "lon": 77.6657
+          },
+          "end_location": {
+            "lat": 12.9146,
+            "lon": 77.5229
+          },
+          "distance_km": 38.76,
+          "fare": 290.42,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 35,
+          "passenger_id": 1164,
+          "start_time": "2026-08-04 19:28:00",
+          "end_time": "2026-08-04 20:46:00",
+          "start_location": {
+            "lat": 12.9982,
+            "lon": 77.5927
+          },
+          "end_location": {
+            "lat": 13.0193,
+            "lon": 77.6812
+          },
+          "distance_km": 11.21,
+          "fare": 639.41,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 36,
+          "passenger_id": 1160,
+          "start_time": "2026-09-15 16:08:00",
+          "end_time": "2026-09-15 17:13:00",
+          "start_location": {
+            "lat": 12.9167,
+            "lon": 77.5097
+          },
+          "end_location": {
+            "lat": 13.096,
+            "lon": 77.5968
+          },
+          "distance_km": 50.88,
+          "fare": 362.22,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 37,
+          "passenger_id": 1165,
+          "start_time": "2026-08-25 13:43:00",
+          "end_time": "2026-08-25 13:49:00",
+          "start_location": {
+            "lat": 12.9231,
+            "lon": 77.6787
+          },
+          "end_location": {
+            "lat": 13.0151,
+            "lon": 77.5293
+          },
+          "distance_km": 54.27,
+          "fare": 239.75,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 38,
+          "passenger_id": 1137,
+          "start_time": "2026-08-08 03:44:00",
+          "end_time": "2026-08-08 04:29:00",
+          "start_location": {
+            "lat": 12.9533,
+            "lon": 77.5701
+          },
+          "end_location": {
+            "lat": 13.0157,
+            "lon": 77.6617
+          },
+          "distance_km": 56.06,
+          "fare": 675.4,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 39,
+          "passenger_id": 1068,
+          "start_time": "2026-08-12 13:24:00",
+          "end_time": "2026-08-12 14:27:00",
+          "start_location": {
+            "lat": 12.9458,
+            "lon": 77.6584
+          },
+          "end_location": {
+            "lat": 13.0294,
+            "lon": 77.5849
+          },
+          "distance_km": 6.61,
+          "fare": 52.6,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 40,
+          "passenger_id": 1002,
+          "start_time": "2026-08-30 04:03:00",
+          "end_time": "2026-08-30 04:53:00",
+          "start_location": {
+            "lat": 13.0518,
+            "lon": 77.6334
+          },
+          "end_location": {
+            "lat": 12.945,
+            "lon": 77.5692
+          },
+          "distance_km": 19.87,
+          "fare": 728.67,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 41,
+          "passenger_id": 1136,
+          "start_time": "2026-08-13 12:52:00",
+          "end_time": "2026-08-13 14:04:00",
+          "start_location": {
+            "lat": 12.9411,
+            "lon": 77.5096
+          },
+          "end_location": {
+            "lat": 12.9078,
+            "lon": 77.5569
+          },
+          "distance_km": 21.58,
+          "fare": 603.09,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 42,
+          "passenger_id": 1056,
+          "start_time": "2026-08-07 11:54:00",
+          "end_time": "2026-08-07 12:52:00",
+          "start_location": {
+            "lat": 12.9001,
+            "lon": 77.5413
+          },
+          "end_location": {
+            "lat": 13.0268,
+            "lon": 77.5035
+          },
+          "distance_km": 2.58,
+          "fare": 505.88,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 43,
+          "passenger_id": 1082,
+          "start_time": "2026-08-12 06:34:00",
+          "end_time": "2026-08-12 07:39:00",
+          "start_location": {
+            "lat": 12.9961,
+            "lon": 77.6973
+          },
+          "end_location": {
+            "lat": 13.0986,
+            "lon": 77.5901
+          },
+          "distance_km": 43.18,
+          "fare": 287.42,
+          "payment_type": "cash",
+          "ride_rating": 4
+        }
+      ]
+    },
+    {
+      "driver_id": 3,
+      "name": "Driver 3",
+      "vehicle_type": "Hatchback",
+      "rating": 3.58,
+      "rides": [
+        {
+          "ride_id": 44,
+          "passenger_id": 1099,
+          "start_time": "2026-09-04 01:20:00",
+          "end_time": "2026-09-04 01:32:00",
+          "start_location": {
+            "lat": 13.0553,
+            "lon": 77.5608
+          },
+          "end_location": {
+            "lat": 13.0031,
+            "lon": 77.5956
+          },
+          "distance_km": 46.36,
+          "fare": 172.95,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 45,
+          "passenger_id": 1055,
+          "start_time": "2026-08-26 15:13:00",
+          "end_time": "2026-08-26 15:20:00",
+          "start_location": {
+            "lat": 12.9413,
+            "lon": 77.5973
+          },
+          "end_location": {
+            "lat": 12.9648,
+            "lon": 77.5943
+          },
+          "distance_km": 35.58,
+          "fare": 217.96,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 46,
+          "passenger_id": 1169,
+          "start_time": "2026-08-31 08:36:00",
+          "end_time": "2026-08-31 09:25:00",
+          "start_location": {
+            "lat": 12.9949,
+            "lon": 77.5677
+          },
+          "end_location": {
+            "lat": 12.9481,
+            "lon": 77.5433
+          },
+          "distance_km": 15.28,
+          "fare": 473.68,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 47,
+          "passenger_id": 1051,
+          "start_time": "2026-08-15 14:47:00",
+          "end_time": "2026-08-15 15:30:00",
+          "start_location": {
+            "lat": 13.0663,
+            "lon": 77.6041
+          },
+          "end_location": {
+            "lat": 13.0388,
+            "lon": 77.6
+          },
+          "distance_km": 21.9,
+          "fare": 773.6,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 48,
+          "passenger_id": 1169,
+          "start_time": "2026-09-13 10:15:00",
+          "end_time": "2026-09-13 10:42:00",
+          "start_location": {
+            "lat": 12.92,
+            "lon": 77.5945
+          },
+          "end_location": {
+            "lat": 12.9624,
+            "lon": 77.6545
+          },
+          "distance_km": 54.16,
+          "fare": 301.42,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 49,
+          "passenger_id": 1141,
+          "start_time": "2026-08-17 05:13:00",
+          "end_time": "2026-08-17 06:02:00",
+          "start_location": {
+            "lat": 12.9941,
+            "lon": 77.6562
+          },
+          "end_location": {
+            "lat": 12.9165,
+            "lon": 77.5789
+          },
+          "distance_km": 6.64,
+          "fare": 150,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 50,
+          "passenger_id": 1135,
+          "start_time": "2026-09-03 20:04:00",
+          "end_time": "2026-09-03 20:53:00",
+          "start_location": {
+            "lat": 12.9664,
+            "lon": 77.6648
+          },
+          "end_location": {
+            "lat": 12.9265,
+            "lon": 77.5249
+          },
+          "distance_km": 43.96,
+          "fare": 461.32,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 51,
+          "passenger_id": 1122,
+          "start_time": "2026-08-19 07:38:00",
+          "end_time": "2026-08-19 07:52:00",
+          "start_location": {
+            "lat": 12.9912,
+            "lon": 77.6531
+          },
+          "end_location": {
+            "lat": 13.001,
+            "lon": 77.5405
+          },
+          "distance_km": 43.31,
+          "fare": 626.06,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 52,
+          "passenger_id": 1199,
+          "start_time": "2026-09-15 10:13:00",
+          "end_time": "2026-09-15 10:27:00",
+          "start_location": {
+            "lat": 13.0475,
+            "lon": 77.6593
+          },
+          "end_location": {
+            "lat": 13.0448,
+            "lon": 77.5771
+          },
+          "distance_km": 18.59,
+          "fare": 93.1,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 53,
+          "passenger_id": 1104,
+          "start_time": "2026-09-11 09:37:00",
+          "end_time": "2026-09-11 09:44:00",
+          "start_location": {
+            "lat": 13.063,
+            "lon": 77.5737
+          },
+          "end_location": {
+            "lat": 12.9879,
+            "lon": 77.5878
+          },
+          "distance_km": 36.51,
+          "fare": 352.93,
+          "payment_type": "cash",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 54,
+          "passenger_id": 1102,
+          "start_time": "2026-08-19 01:45:00",
+          "end_time": "2026-08-19 02:09:00",
+          "start_location": {
+            "lat": 13.0273,
+            "lon": 77.6719
+          },
+          "end_location": {
+            "lat": 13.0897,
+            "lon": 77.6148
+          },
+          "distance_km": 32.58,
+          "fare": 756.27,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 55,
+          "passenger_id": 1179,
+          "start_time": "2026-09-04 02:29:00",
+          "end_time": "2026-09-04 03:08:00",
+          "start_location": {
+            "lat": 12.9175,
+            "lon": 77.5782
+          },
+          "end_location": {
+            "lat": 12.9365,
+            "lon": 77.5267
+          },
+          "distance_km": 16.19,
+          "fare": 464.94,
+          "payment_type": "card",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 56,
+          "passenger_id": 1076,
+          "start_time": "2026-09-06 03:34:00",
+          "end_time": "2026-09-06 03:49:00",
+          "start_location": {
+            "lat": 13.0373,
+            "lon": 77.6362
+          },
+          "end_location": {
+            "lat": 13.0835,
+            "lon": 77.5817
+          },
+          "distance_km": 25.92,
+          "fare": 452.99,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 57,
+          "passenger_id": 1058,
+          "start_time": "2026-08-24 12:32:00",
+          "end_time": "2026-08-24 13:04:00",
+          "start_location": {
+            "lat": 13.08,
+            "lon": 77.6508
+          },
+          "end_location": {
+            "lat": 13.0904,
+            "lon": 77.6251
+          },
+          "distance_km": 39.7,
+          "fare": 336.03,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 58,
+          "passenger_id": 1019,
+          "start_time": "2026-08-15 13:01:00",
+          "end_time": "2026-08-15 13:13:00",
+          "start_location": {
+            "lat": 12.977,
+            "lon": 77.6342
+          },
+          "end_location": {
+            "lat": 12.9042,
+            "lon": 77.6191
+          },
+          "distance_km": 17.3,
+          "fare": 349.35,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 59,
+          "passenger_id": 1169,
+          "start_time": "2026-08-16 18:43:00",
+          "end_time": "2026-08-16 19:56:00",
+          "start_location": {
+            "lat": 12.9321,
+            "lon": 77.6039
+          },
+          "end_location": {
+            "lat": 12.9449,
+            "lon": 77.5563
+          },
+          "distance_km": 30.72,
+          "fare": 169.22,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 60,
+          "passenger_id": 1161,
+          "start_time": "2026-09-11 04:29:00",
+          "end_time": "2026-09-11 05:24:00",
+          "start_location": {
+            "lat": 12.9482,
+            "lon": 77.629
+          },
+          "end_location": {
+            "lat": 12.9756,
+            "lon": 77.5094
+          },
+          "distance_km": 3.84,
+          "fare": 772.13,
+          "payment_type": "card",
+          "ride_rating": 5
+        }
+      ]
+    },
+    {
+      "driver_id": 4,
+      "name": "Driver 4",
+      "vehicle_type": "Hatchback",
+      "rating": 3.9,
+      "rides": [
+        {
+          "ride_id": 61,
+          "passenger_id": 1161,
+          "start_time": "2026-08-26 08:23:00",
+          "end_time": "2026-08-26 08:56:00",
+          "start_location": {
+            "lat": 13.0212,
+            "lon": 77.5527
+          },
+          "end_location": {
+            "lat": 13.035,
+            "lon": 77.6872
+          },
+          "distance_km": 1.21,
+          "fare": 640.23,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 62,
+          "passenger_id": 1189,
+          "start_time": "2026-08-11 15:20:00",
+          "end_time": "2026-08-11 16:27:00",
+          "start_location": {
+            "lat": 12.9704,
+            "lon": 77.6626
+          },
+          "end_location": {
+            "lat": 12.9343,
+            "lon": 77.6042
+          },
+          "distance_km": 46.11,
+          "fare": 266.57,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 63,
+          "passenger_id": 1091,
+          "start_time": "2026-09-12 13:34:00",
+          "end_time": "2026-09-12 14:43:00",
+          "start_location": {
+            "lat": 12.9416,
+            "lon": 77.5638
+          },
+          "end_location": {
+            "lat": 13.0709,
+            "lon": 77.5122
+          },
+          "distance_km": 11.74,
+          "fare": 412.88,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 64,
+          "passenger_id": 1185,
+          "start_time": "2026-08-29 03:05:00",
+          "end_time": "2026-08-29 03:44:00",
+          "start_location": {
+            "lat": 13.0344,
+            "lon": 77.5237
+          },
+          "end_location": {
+            "lat": 12.9953,
+            "lon": 77.6851
+          },
+          "distance_km": 34.92,
+          "fare": 734.56,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 65,
+          "passenger_id": 1096,
+          "start_time": "2026-08-18 05:07:00",
+          "end_time": "2026-08-18 05:38:00",
+          "start_location": {
+            "lat": 12.9195,
+            "lon": 77.6658
+          },
+          "end_location": {
+            "lat": 13.0612,
+            "lon": 77.5559
+          },
+          "distance_km": 27.49,
+          "fare": 519.41,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 66,
+          "passenger_id": 1104,
+          "start_time": "2026-08-22 07:18:00",
+          "end_time": "2026-08-22 07:54:00",
+          "start_location": {
+            "lat": 12.9192,
+            "lon": 77.5074
+          },
+          "end_location": {
+            "lat": 12.9802,
+            "lon": 77.5023
+          },
+          "distance_km": 34.51,
+          "fare": 758.71,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 67,
+          "passenger_id": 1047,
+          "start_time": "2026-08-06 07:37:00",
+          "end_time": "2026-08-06 08:09:00",
+          "start_location": {
+            "lat": 13.0516,
+            "lon": 77.6997
+          },
+          "end_location": {
+            "lat": 13.0161,
+            "lon": 77.5427
+          },
+          "distance_km": 8.88,
+          "fare": 644.21,
+          "payment_type": "cash",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 68,
+          "passenger_id": 1057,
+          "start_time": "2026-08-20 08:14:00",
+          "end_time": "2026-08-20 09:05:00",
+          "start_location": {
+            "lat": 12.9896,
+            "lon": 77.5972
+          },
+          "end_location": {
+            "lat": 13.09,
+            "lon": 77.6809
+          },
+          "distance_km": 56.47,
+          "fare": 630.12,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 69,
+          "passenger_id": 1141,
+          "start_time": "2026-08-17 12:11:00",
+          "end_time": "2026-08-17 12:35:00",
+          "start_location": {
+            "lat": 12.9145,
+            "lon": 77.569
+          },
+          "end_location": {
+            "lat": 13.0513,
+            "lon": 77.577
+          },
+          "distance_km": 1.41,
+          "fare": 588.83,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 70,
+          "passenger_id": 1106,
+          "start_time": "2026-09-08 16:38:00",
+          "end_time": "2026-09-08 17:55:00",
+          "start_location": {
+            "lat": 13.0239,
+            "lon": 77.6247
+          },
+          "end_location": {
+            "lat": 13.0605,
+            "lon": 77.6308
+          },
+          "distance_km": 41.09,
+          "fare": 358.07,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 71,
+          "passenger_id": 1033,
+          "start_time": "2026-08-17 10:18:00",
+          "end_time": "2026-08-17 11:00:00",
+          "start_location": {
+            "lat": 12.9382,
+            "lon": 77.6554
+          },
+          "end_location": {
+            "lat": 12.9406,
+            "lon": 77.5807
+          },
+          "distance_km": 27.32,
+          "fare": 504.72,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 72,
+          "passenger_id": 1141,
+          "start_time": "2026-09-15 07:46:00",
+          "end_time": "2026-09-15 09:01:00",
+          "start_location": {
+            "lat": 12.925,
+            "lon": 77.5858
+          },
+          "end_location": {
+            "lat": 12.9061,
+            "lon": 77.5908
+          },
+          "distance_km": 47.86,
+          "fare": 403.46,
+          "payment_type": "card",
+          "ride_rating": 3
+        }
+      ]
+    },
+    {
+      "driver_id": 5,
+      "name": "Driver 5",
+      "vehicle_type": "Sedan",
+      "rating": 4.28,
+      "rides": [
+        {
+          "ride_id": 73,
+          "passenger_id": 1191,
+          "start_time": "2026-08-15 19:42:00",
+          "end_time": "2026-08-15 20:59:00",
+          "start_location": {
+            "lat": 12.9234,
+            "lon": 77.5275
+          },
+          "end_location": {
+            "lat": 13.0097,
+            "lon": 77.5118
+          },
+          "distance_km": 30.24,
+          "fare": 55.56,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 74,
+          "passenger_id": 1176,
+          "start_time": "2026-08-16 15:09:00",
+          "end_time": "2026-08-16 16:17:00",
+          "start_location": {
+            "lat": 13.0108,
+            "lon": 77.644
+          },
+          "end_location": {
+            "lat": 12.9471,
+            "lon": 77.6624
+          },
+          "distance_km": 25.87,
+          "fare": 473.68,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 75,
+          "passenger_id": 1105,
+          "start_time": "2026-09-09 05:05:00",
+          "end_time": "2026-09-09 05:42:00",
+          "start_location": {
+            "lat": 12.9598,
+            "lon": 77.6735
+          },
+          "end_location": {
+            "lat": 12.9079,
+            "lon": 77.568
+          },
+          "distance_km": 19.27,
+          "fare": 147.09,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 76,
+          "passenger_id": 1164,
+          "start_time": "2026-09-05 21:36:00",
+          "end_time": "2026-09-05 22:38:00",
+          "start_location": {
+            "lat": 12.9086,
+            "lon": 77.5286
+          },
+          "end_location": {
+            "lat": 12.9721,
+            "lon": 77.6089
+          },
+          "distance_km": 56.31,
+          "fare": 526.66,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 77,
+          "passenger_id": 1200,
+          "start_time": "2026-08-12 20:46:00",
+          "end_time": "2026-08-12 21:04:00",
+          "start_location": {
+            "lat": 13.0455,
+            "lon": 77.5396
+          },
+          "end_location": {
+            "lat": 13.0177,
+            "lon": 77.6686
+          },
+          "distance_km": 59.96,
+          "fare": 58.58,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 78,
+          "passenger_id": 1036,
+          "start_time": "2026-08-15 23:22:00",
+          "end_time": "2026-08-16 00:26:00",
+          "start_location": {
+            "lat": 12.9057,
+            "lon": 77.5574
+          },
+          "end_location": {
+            "lat": 12.9071,
+            "lon": 77.6796
+          },
+          "distance_km": 8.73,
+          "fare": 88.58,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 79,
+          "passenger_id": 1130,
+          "start_time": "2026-09-10 05:29:00",
+          "end_time": "2026-09-10 06:40:00",
+          "start_location": {
+            "lat": 12.9083,
+            "lon": 77.5948
+          },
+          "end_location": {
+            "lat": 13.0898,
+            "lon": 77.5481
+          },
+          "distance_km": 41.01,
+          "fare": 735.07,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 80,
+          "passenger_id": 1147,
+          "start_time": "2026-08-18 22:42:00",
+          "end_time": "2026-08-18 23:33:00",
+          "start_location": {
+            "lat": 13.0405,
+            "lon": 77.505
+          },
+          "end_location": {
+            "lat": 13.0892,
+            "lon": 77.6067
+          },
+          "distance_km": 42.08,
+          "fare": 83.94,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 81,
+          "passenger_id": 1061,
+          "start_time": "2026-08-17 18:37:00",
+          "end_time": "2026-08-17 20:03:00",
+          "start_location": {
+            "lat": 13.0831,
+            "lon": 77.6128
+          },
+          "end_location": {
+            "lat": 12.9118,
+            "lon": 77.6346
+          },
+          "distance_km": 38.01,
+          "fare": 104.64,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 82,
+          "passenger_id": 1073,
+          "start_time": "2026-08-23 05:43:00",
+          "end_time": "2026-08-23 06:10:00",
+          "start_location": {
+            "lat": 12.9716,
+            "lon": 77.6864
+          },
+          "end_location": {
+            "lat": 13.0489,
+            "lon": 77.5127
+          },
+          "distance_km": 7.38,
+          "fare": 664.08,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 83,
+          "passenger_id": 1036,
+          "start_time": "2026-08-24 20:51:00",
+          "end_time": "2026-08-24 21:19:00",
+          "start_location": {
+            "lat": 12.9697,
+            "lon": 77.6667
+          },
+          "end_location": {
+            "lat": 13.0581,
+            "lon": 77.6063
+          },
+          "distance_km": 46.94,
+          "fare": 93.77,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 84,
+          "passenger_id": 1158,
+          "start_time": "2026-08-08 04:05:00",
+          "end_time": "2026-08-08 04:13:00",
+          "start_location": {
+            "lat": 12.9568,
+            "lon": 77.511
+          },
+          "end_location": {
+            "lat": 12.9756,
+            "lon": 77.606
+          },
+          "distance_km": 15.81,
+          "fare": 758.06,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 85,
+          "passenger_id": 1032,
+          "start_time": "2026-09-14 06:14:00",
+          "end_time": "2026-09-14 07:23:00",
+          "start_location": {
+            "lat": 12.9018,
+            "lon": 77.694
+          },
+          "end_location": {
+            "lat": 13.0609,
+            "lon": 77.6002
+          },
+          "distance_km": 56.12,
+          "fare": 400.89,
+          "payment_type": "card",
+          "ride_rating": 3
+        }
+      ]
+    },
+    {
+      "driver_id": 6,
+      "name": "Driver 6",
+      "vehicle_type": "Hatchback",
+      "rating": 4.93,
+      "rides": [
+        {
+          "ride_id": 86,
+          "passenger_id": 1123,
+          "start_time": "2026-09-09 13:43:00",
+          "end_time": "2026-09-09 15:07:00",
+          "start_location": {
+            "lat": 13.0374,
+            "lon": 77.6706
+          },
+          "end_location": {
+            "lat": 13.0734,
+            "lon": 77.5178
+          },
+          "distance_km": 1.77,
+          "fare": 367.44,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 87,
+          "passenger_id": 1057,
+          "start_time": "2026-08-16 01:34:00",
+          "end_time": "2026-08-16 02:21:00",
+          "start_location": {
+            "lat": 12.99,
+            "lon": 77.5938
+          },
+          "end_location": {
+            "lat": 12.9804,
+            "lon": 77.6805
+          },
+          "distance_km": 34.26,
+          "fare": 568.25,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 88,
+          "passenger_id": 1098,
+          "start_time": "2026-08-23 07:53:00",
+          "end_time": "2026-08-23 08:06:00",
+          "start_location": {
+            "lat": 12.9804,
+            "lon": 77.5864
+          },
+          "end_location": {
+            "lat": 13.0327,
+            "lon": 77.5365
+          },
+          "distance_km": 50.46,
+          "fare": 738.03,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 89,
+          "passenger_id": 1099,
+          "start_time": "2026-08-13 12:00:00",
+          "end_time": "2026-08-13 12:24:00",
+          "start_location": {
+            "lat": 12.9765,
+            "lon": 77.6612
+          },
+          "end_location": {
+            "lat": 13.0096,
+            "lon": 77.5609
+          },
+          "distance_km": 24.74,
+          "fare": 70.7,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 90,
+          "passenger_id": 1052,
+          "start_time": "2026-09-08 23:53:00",
+          "end_time": "2026-09-09 00:36:00",
+          "start_location": {
+            "lat": 13.0215,
+            "lon": 77.5276
+          },
+          "end_location": {
+            "lat": 13.0742,
+            "lon": 77.6154
+          },
+          "distance_km": 48.15,
+          "fare": 71.15,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 91,
+          "passenger_id": 1116,
+          "start_time": "2026-08-31 09:53:00",
+          "end_time": "2026-08-31 10:47:00",
+          "start_location": {
+            "lat": 12.9805,
+            "lon": 77.6545
+          },
+          "end_location": {
+            "lat": 13.0903,
+            "lon": 77.5531
+          },
+          "distance_km": 49.93,
+          "fare": 540.25,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 92,
+          "passenger_id": 1187,
+          "start_time": "2026-08-12 22:03:00",
+          "end_time": "2026-08-12 22:46:00",
+          "start_location": {
+            "lat": 13.0349,
+            "lon": 77.5083
+          },
+          "end_location": {
+            "lat": 13.0287,
+            "lon": 77.5599
+          },
+          "distance_km": 24.21,
+          "fare": 742.63,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 93,
+          "passenger_id": 1052,
+          "start_time": "2026-08-27 13:43:00",
+          "end_time": "2026-08-27 14:25:00",
+          "start_location": {
+            "lat": 13.0759,
+            "lon": 77.6189
+          },
+          "end_location": {
+            "lat": 13.0836,
+            "lon": 77.5703
+          },
+          "distance_km": 15.99,
+          "fare": 585.58,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 94,
+          "passenger_id": 1056,
+          "start_time": "2026-08-07 09:49:00",
+          "end_time": "2026-08-07 10:19:00",
+          "start_location": {
+            "lat": 13.0578,
+            "lon": 77.5729
+          },
+          "end_location": {
+            "lat": 12.9566,
+            "lon": 77.5521
+          },
+          "distance_km": 2.59,
+          "fare": 542.22,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 95,
+          "passenger_id": 1097,
+          "start_time": "2026-08-30 03:14:00",
+          "end_time": "2026-08-30 03:32:00",
+          "start_location": {
+            "lat": 13.0198,
+            "lon": 77.5718
+          },
+          "end_location": {
+            "lat": 13.0356,
+            "lon": 77.5732
+          },
+          "distance_km": 48.25,
+          "fare": 790.27,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 96,
+          "passenger_id": 1093,
+          "start_time": "2026-08-06 02:53:00",
+          "end_time": "2026-08-06 03:40:00",
+          "start_location": {
+            "lat": 12.9955,
+            "lon": 77.5134
+          },
+          "end_location": {
+            "lat": 13.044,
+            "lon": 77.5544
+          },
+          "distance_km": 20.27,
+          "fare": 338.79,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 97,
+          "passenger_id": 1070,
+          "start_time": "2026-09-10 17:15:00",
+          "end_time": "2026-09-10 18:31:00",
+          "start_location": {
+            "lat": 13.0843,
+            "lon": 77.6043
+          },
+          "end_location": {
+            "lat": 13.0532,
+            "lon": 77.6533
+          },
+          "distance_km": 50.46,
+          "fare": 755.56,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 98,
+          "passenger_id": 1184,
+          "start_time": "2026-08-19 07:08:00",
+          "end_time": "2026-08-19 07:55:00",
+          "start_location": {
+            "lat": 12.9489,
+            "lon": 77.6018
+          },
+          "end_location": {
+            "lat": 13.003,
+            "lon": 77.6527
+          },
+          "distance_km": 16.8,
+          "fare": 565.81,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 99,
+          "passenger_id": 1001,
+          "start_time": "2026-08-13 04:26:00",
+          "end_time": "2026-08-13 05:20:00",
+          "start_location": {
+            "lat": 13.0363,
+            "lon": 77.5211
+          },
+          "end_location": {
+            "lat": 12.9577,
+            "lon": 77.6448
+          },
+          "distance_km": 3.68,
+          "fare": 131.62,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 100,
+          "passenger_id": 1108,
+          "start_time": "2026-09-10 10:40:00",
+          "end_time": "2026-09-10 11:01:00",
+          "start_location": {
+            "lat": 13.0762,
+            "lon": 77.5871
+          },
+          "end_location": {
+            "lat": 12.9553,
+            "lon": 77.5114
+          },
+          "distance_km": 53.21,
+          "fare": 160.91,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 101,
+          "passenger_id": 1050,
+          "start_time": "2026-08-23 03:49:00",
+          "end_time": "2026-08-23 05:13:00",
+          "start_location": {
+            "lat": 12.9138,
+            "lon": 77.5721
+          },
+          "end_location": {
+            "lat": 13.0966,
+            "lon": 77.538
+          },
+          "distance_km": 52.44,
+          "fare": 134.44,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 102,
+          "passenger_id": 1071,
+          "start_time": "2026-09-12 02:08:00",
+          "end_time": "2026-09-12 02:36:00",
+          "start_location": {
+            "lat": 13.0781,
+            "lon": 77.5423
+          },
+          "end_location": {
+            "lat": 13.0042,
+            "lon": 77.5028
+          },
+          "distance_km": 32.08,
+          "fare": 339.16,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 103,
+          "passenger_id": 1176,
+          "start_time": "2026-08-13 03:18:00",
+          "end_time": "2026-08-13 03:49:00",
+          "start_location": {
+            "lat": 12.9317,
+            "lon": 77.5424
+          },
+          "end_location": {
+            "lat": 12.9745,
+            "lon": 77.6347
+          },
+          "distance_km": 10.24,
+          "fare": 352.82,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 104,
+          "passenger_id": 1081,
+          "start_time": "2026-08-23 16:14:00",
+          "end_time": "2026-08-23 17:35:00",
+          "start_location": {
+            "lat": 12.9108,
+            "lon": 77.5785
+          },
+          "end_location": {
+            "lat": 13.0683,
+            "lon": 77.5796
+          },
+          "distance_km": 27.93,
+          "fare": 768.61,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 105,
+          "passenger_id": 1035,
+          "start_time": "2026-09-06 08:19:00",
+          "end_time": "2026-09-06 09:34:00",
+          "start_location": {
+            "lat": 13.0829,
+            "lon": 77.683
+          },
+          "end_location": {
+            "lat": 13.0615,
+            "lon": 77.5706
+          },
+          "distance_km": 40.86,
+          "fare": 251.67,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 106,
+          "passenger_id": 1102,
+          "start_time": "2026-09-16 05:15:00",
+          "end_time": "2026-09-16 06:21:00",
+          "start_location": {
+            "lat": 13.0762,
+            "lon": 77.6261
+          },
+          "end_location": {
+            "lat": 13.0732,
+            "lon": 77.6845
+          },
+          "distance_km": 34.56,
+          "fare": 609.96,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 107,
+          "passenger_id": 1152,
+          "start_time": "2026-09-02 04:39:00",
+          "end_time": "2026-09-02 05:23:00",
+          "start_location": {
+            "lat": 12.9231,
+            "lon": 77.6287
+          },
+          "end_location": {
+            "lat": 13.0254,
+            "lon": 77.5511
+          },
+          "distance_km": 14.91,
+          "fare": 315,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 108,
+          "passenger_id": 1140,
+          "start_time": "2026-08-25 16:57:00",
+          "end_time": "2026-08-25 17:20:00",
+          "start_location": {
+            "lat": 13.0011,
+            "lon": 77.6543
+          },
+          "end_location": {
+            "lat": 12.9359,
+            "lon": 77.6985
+          },
+          "distance_km": 57.42,
+          "fare": 437.96,
+          "payment_type": "card",
+          "ride_rating": 4
+        }
+      ]
+    },
+    {
+      "driver_id": 7,
+      "name": "Driver 7",
+      "vehicle_type": "Sedan",
+      "rating": 4.38,
+      "rides": [
+        {
+          "ride_id": 109,
+          "passenger_id": 1051,
+          "start_time": "2026-09-05 13:39:00",
+          "end_time": "2026-09-05 14:37:00",
+          "start_location": {
+            "lat": 13.0228,
+            "lon": 77.6458
+          },
+          "end_location": {
+            "lat": 12.9641,
+            "lon": 77.5288
+          },
+          "distance_km": 4.18,
+          "fare": 766.32,
+          "payment_type": "card",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 110,
+          "passenger_id": 1180,
+          "start_time": "2026-08-20 12:07:00",
+          "end_time": "2026-08-20 13:17:00",
+          "start_location": {
+            "lat": 12.9023,
+            "lon": 77.5843
+          },
+          "end_location": {
+            "lat": 13.0229,
+            "lon": 77.501
+          },
+          "distance_km": 40.15,
+          "fare": 136.74,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 111,
+          "passenger_id": 1146,
+          "start_time": "2026-08-20 03:35:00",
+          "end_time": "2026-08-20 04:26:00",
+          "start_location": {
+            "lat": 12.9985,
+            "lon": 77.6344
+          },
+          "end_location": {
+            "lat": 12.9937,
+            "lon": 77.5592
+          },
+          "distance_km": 33.22,
+          "fare": 601.27,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 112,
+          "passenger_id": 1135,
+          "start_time": "2026-09-11 06:16:00",
+          "end_time": "2026-09-11 06:28:00",
+          "start_location": {
+            "lat": 13.0953,
+            "lon": 77.5338
+          },
+          "end_location": {
+            "lat": 12.9341,
+            "lon": 77.6256
+          },
+          "distance_km": 44.32,
+          "fare": 754.33,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 113,
+          "passenger_id": 1117,
+          "start_time": "2026-09-17 03:14:00",
+          "end_time": "2026-09-17 04:32:00",
+          "start_location": {
+            "lat": 13.0636,
+            "lon": 77.6347
+          },
+          "end_location": {
+            "lat": 12.9751,
+            "lon": 77.6769
+          },
+          "distance_km": 34.69,
+          "fare": 402.46,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 114,
+          "passenger_id": 1132,
+          "start_time": "2026-08-25 23:50:00",
+          "end_time": "2026-08-26 01:17:00",
+          "start_location": {
+            "lat": 13.0501,
+            "lon": 77.5377
+          },
+          "end_location": {
+            "lat": 12.9217,
+            "lon": 77.6488
+          },
+          "distance_km": 7.79,
+          "fare": 798.37,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 115,
+          "passenger_id": 1132,
+          "start_time": "2026-08-07 19:03:00",
+          "end_time": "2026-08-07 20:11:00",
+          "start_location": {
+            "lat": 13.0347,
+            "lon": 77.5749
+          },
+          "end_location": {
+            "lat": 12.9294,
+            "lon": 77.6938
+          },
+          "distance_km": 5.08,
+          "fare": 501.79,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 116,
+          "passenger_id": 1190,
+          "start_time": "2026-09-09 11:21:00",
+          "end_time": "2026-09-09 11:47:00",
+          "start_location": {
+            "lat": 12.9283,
+            "lon": 77.6507
+          },
+          "end_location": {
+            "lat": 12.9022,
+            "lon": 77.5356
+          },
+          "distance_km": 7.71,
+          "fare": 452.53,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 117,
+          "passenger_id": 1011,
+          "start_time": "2026-08-27 19:04:00",
+          "end_time": "2026-08-27 20:26:00",
+          "start_location": {
+            "lat": 12.9286,
+            "lon": 77.6172
+          },
+          "end_location": {
+            "lat": 13.0414,
+            "lon": 77.584
+          },
+          "distance_km": 59.46,
+          "fare": 114.51,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 118,
+          "passenger_id": 1020,
+          "start_time": "2026-09-17 10:01:00",
+          "end_time": "2026-09-17 10:29:00",
+          "start_location": {
+            "lat": 13.056,
+            "lon": 77.6809
+          },
+          "end_location": {
+            "lat": 13.0333,
+            "lon": 77.6384
+          },
+          "distance_km": 56.82,
+          "fare": 147.2,
+          "payment_type": "cash",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 119,
+          "passenger_id": 1020,
+          "start_time": "2026-09-13 16:14:00",
+          "end_time": "2026-09-13 16:54:00",
+          "start_location": {
+            "lat": 12.9027,
+            "lon": 77.5646
+          },
+          "end_location": {
+            "lat": 12.934,
+            "lon": 77.5438
+          },
+          "distance_km": 28.89,
+          "fare": 56.02,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 120,
+          "passenger_id": 1032,
+          "start_time": "2026-09-01 18:11:00",
+          "end_time": "2026-09-01 19:30:00",
+          "start_location": {
+            "lat": 12.9046,
+            "lon": 77.5795
+          },
+          "end_location": {
+            "lat": 12.9355,
+            "lon": 77.5507
+          },
+          "distance_km": 54.91,
+          "fare": 331.15,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 121,
+          "passenger_id": 1197,
+          "start_time": "2026-08-07 20:12:00",
+          "end_time": "2026-08-07 21:39:00",
+          "start_location": {
+            "lat": 13.0436,
+            "lon": 77.6075
+          },
+          "end_location": {
+            "lat": 12.9783,
+            "lon": 77.5999
+          },
+          "distance_km": 59.41,
+          "fare": 421.08,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 122,
+          "passenger_id": 1110,
+          "start_time": "2026-08-10 21:14:00",
+          "end_time": "2026-08-10 22:04:00",
+          "start_location": {
+            "lat": 12.9259,
+            "lon": 77.536
+          },
+          "end_location": {
+            "lat": 13.0273,
+            "lon": 77.5337
+          },
+          "distance_km": 22.36,
+          "fare": 215.69,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 123,
+          "passenger_id": 1002,
+          "start_time": "2026-08-31 07:09:00",
+          "end_time": "2026-08-31 07:38:00",
+          "start_location": {
+            "lat": 12.9839,
+            "lon": 77.5732
+          },
+          "end_location": {
+            "lat": 12.929,
+            "lon": 77.604
+          },
+          "distance_km": 45,
+          "fare": 132.34,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 124,
+          "passenger_id": 1106,
+          "start_time": "2026-08-17 10:15:00",
+          "end_time": "2026-08-17 11:32:00",
+          "start_location": {
+            "lat": 12.9054,
+            "lon": 77.6531
+          },
+          "end_location": {
+            "lat": 12.955,
+            "lon": 77.5302
+          },
+          "distance_km": 6.82,
+          "fare": 583.52,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 125,
+          "passenger_id": 1148,
+          "start_time": "2026-08-13 16:25:00",
+          "end_time": "2026-08-13 17:07:00",
+          "start_location": {
+            "lat": 13.0598,
+            "lon": 77.6621
+          },
+          "end_location": {
+            "lat": 13.0729,
+            "lon": 77.5845
+          },
+          "distance_km": 6.66,
+          "fare": 711.95,
+          "payment_type": "card",
+          "ride_rating": 5
+        }
+      ]
+    },
+    {
+      "driver_id": 8,
+      "name": "Driver 8",
+      "vehicle_type": "SUV",
+      "rating": 4.3,
+      "rides": [
+        {
+          "ride_id": 126,
+          "passenger_id": 1172,
+          "start_time": "2026-08-14 04:47:00",
+          "end_time": "2026-08-14 05:03:00",
+          "start_location": {
+            "lat": 12.9164,
+            "lon": 77.5928
+          },
+          "end_location": {
+            "lat": 13.0197,
+            "lon": 77.6828
+          },
+          "distance_km": 3.83,
+          "fare": 663.57,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 127,
+          "passenger_id": 1030,
+          "start_time": "2026-09-18 11:28:00",
+          "end_time": "2026-09-18 12:46:00",
+          "start_location": {
+            "lat": 13.0135,
+            "lon": 77.5131
+          },
+          "end_location": {
+            "lat": 12.9875,
+            "lon": 77.6106
+          },
+          "distance_km": 32.87,
+          "fare": 240.87,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 128,
+          "passenger_id": 1060,
+          "start_time": "2026-09-12 16:02:00",
+          "end_time": "2026-09-12 16:27:00",
+          "start_location": {
+            "lat": 13.0038,
+            "lon": 77.5368
+          },
+          "end_location": {
+            "lat": 12.9449,
+            "lon": 77.6915
+          },
+          "distance_km": 12.39,
+          "fare": 778.9,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 129,
+          "passenger_id": 1072,
+          "start_time": "2026-09-11 13:30:00",
+          "end_time": "2026-09-11 14:38:00",
+          "start_location": {
+            "lat": 13.0148,
+            "lon": 77.5327
+          },
+          "end_location": {
+            "lat": 13.0061,
+            "lon": 77.5998
+          },
+          "distance_km": 55.28,
+          "fare": 389.39,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 130,
+          "passenger_id": 1016,
+          "start_time": "2026-09-16 23:22:00",
+          "end_time": "2026-09-17 00:04:00",
+          "start_location": {
+            "lat": 13.0387,
+            "lon": 77.6184
+          },
+          "end_location": {
+            "lat": 12.9301,
+            "lon": 77.5685
+          },
+          "distance_km": 34.49,
+          "fare": 619.95,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 131,
+          "passenger_id": 1046,
+          "start_time": "2026-08-15 01:39:00",
+          "end_time": "2026-08-15 01:46:00",
+          "start_location": {
+            "lat": 12.9129,
+            "lon": 77.6654
+          },
+          "end_location": {
+            "lat": 12.9712,
+            "lon": 77.5804
+          },
+          "distance_km": 58.06,
+          "fare": 453.82,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 132,
+          "passenger_id": 1064,
+          "start_time": "2026-08-24 05:54:00",
+          "end_time": "2026-08-24 06:41:00",
+          "start_location": {
+            "lat": 13.0111,
+            "lon": 77.6088
+          },
+          "end_location": {
+            "lat": 13.0099,
+            "lon": 77.6169
+          },
+          "distance_km": 4.7,
+          "fare": 94.73,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 133,
+          "passenger_id": 1031,
+          "start_time": "2026-09-05 01:10:00",
+          "end_time": "2026-09-05 01:47:00",
+          "start_location": {
+            "lat": 12.9109,
+            "lon": 77.6735
+          },
+          "end_location": {
+            "lat": 13.0646,
+            "lon": 77.5338
+          },
+          "distance_km": 49.14,
+          "fare": 387.87,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 134,
+          "passenger_id": 1112,
+          "start_time": "2026-09-16 09:14:00",
+          "end_time": "2026-09-16 10:17:00",
+          "start_location": {
+            "lat": 13.0906,
+            "lon": 77.6861
+          },
+          "end_location": {
+            "lat": 13.0399,
+            "lon": 77.5541
+          },
+          "distance_km": 58.43,
+          "fare": 89.92,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 135,
+          "passenger_id": 1008,
+          "start_time": "2026-09-05 07:41:00",
+          "end_time": "2026-09-05 07:53:00",
+          "start_location": {
+            "lat": 13.0966,
+            "lon": 77.5804
+          },
+          "end_location": {
+            "lat": 13.0532,
+            "lon": 77.5184
+          },
+          "distance_km": 53.83,
+          "fare": 650.66,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 136,
+          "passenger_id": 1126,
+          "start_time": "2026-08-20 16:17:00",
+          "end_time": "2026-08-20 17:20:00",
+          "start_location": {
+            "lat": 13.0562,
+            "lon": 77.5543
+          },
+          "end_location": {
+            "lat": 13.0429,
+            "lon": 77.6143
+          },
+          "distance_km": 53.6,
+          "fare": 71.13,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 137,
+          "passenger_id": 1073,
+          "start_time": "2026-08-04 09:12:00",
+          "end_time": "2026-08-04 10:31:00",
+          "start_location": {
+            "lat": 12.9033,
+            "lon": 77.5229
+          },
+          "end_location": {
+            "lat": 12.9128,
+            "lon": 77.6611
+          },
+          "distance_km": 8.84,
+          "fare": 117.67,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 138,
+          "passenger_id": 1183,
+          "start_time": "2026-08-22 08:33:00",
+          "end_time": "2026-08-22 09:14:00",
+          "start_location": {
+            "lat": 12.9507,
+            "lon": 77.5805
+          },
+          "end_location": {
+            "lat": 12.9663,
+            "lon": 77.6734
+          },
+          "distance_km": 11.32,
+          "fare": 324.72,
+          "payment_type": "card",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 139,
+          "passenger_id": 1000,
+          "start_time": "2026-09-02 03:08:00",
+          "end_time": "2026-09-02 03:49:00",
+          "start_location": {
+            "lat": 13.0403,
+            "lon": 77.5509
+          },
+          "end_location": {
+            "lat": 13.0596,
+            "lon": 77.5749
+          },
+          "distance_km": 53.31,
+          "fare": 152.4,
+          "payment_type": "cash",
+          "ride_rating": 2
+        }
+      ]
+    },
+    {
+      "driver_id": 9,
+      "name": "Driver 9",
+      "vehicle_type": "Auto",
+      "rating": 4.57,
+      "rides": [
+        {
+          "ride_id": 140,
+          "passenger_id": 1191,
+          "start_time": "2026-08-15 21:24:00",
+          "end_time": "2026-08-15 22:14:00",
+          "start_location": {
+            "lat": 13.0316,
+            "lon": 77.5319
+          },
+          "end_location": {
+            "lat": 13.0908,
+            "lon": 77.5311
+          },
+          "distance_km": 57.4,
+          "fare": 539.26,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 141,
+          "passenger_id": 1118,
+          "start_time": "2026-09-06 08:22:00",
+          "end_time": "2026-09-06 09:36:00",
+          "start_location": {
+            "lat": 12.9107,
+            "lon": 77.5231
+          },
+          "end_location": {
+            "lat": 13.0451,
+            "lon": 77.5336
+          },
+          "distance_km": 57.55,
+          "fare": 95.34,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 142,
+          "passenger_id": 1088,
+          "start_time": "2026-09-06 08:34:00",
+          "end_time": "2026-09-06 09:13:00",
+          "start_location": {
+            "lat": 12.949,
+            "lon": 77.5986
+          },
+          "end_location": {
+            "lat": 13.0515,
+            "lon": 77.5001
+          },
+          "distance_km": 5.95,
+          "fare": 632.44,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 143,
+          "passenger_id": 1187,
+          "start_time": "2026-08-05 16:50:00",
+          "end_time": "2026-08-05 17:13:00",
+          "start_location": {
+            "lat": 12.9456,
+            "lon": 77.6144
+          },
+          "end_location": {
+            "lat": 12.9382,
+            "lon": 77.7
+          },
+          "distance_km": 30.61,
+          "fare": 665.04,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 144,
+          "passenger_id": 1004,
+          "start_time": "2026-08-11 00:22:00",
+          "end_time": "2026-08-11 01:09:00",
+          "start_location": {
+            "lat": 12.9522,
+            "lon": 77.6711
+          },
+          "end_location": {
+            "lat": 13.047,
+            "lon": 77.6709
+          },
+          "distance_km": 44.32,
+          "fare": 590.03,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 145,
+          "passenger_id": 1154,
+          "start_time": "2026-08-13 06:01:00",
+          "end_time": "2026-08-13 06:24:00",
+          "start_location": {
+            "lat": 12.9665,
+            "lon": 77.6904
+          },
+          "end_location": {
+            "lat": 13.098,
+            "lon": 77.5877
+          },
+          "distance_km": 42.29,
+          "fare": 716.81,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 146,
+          "passenger_id": 1108,
+          "start_time": "2026-08-22 20:18:00",
+          "end_time": "2026-08-22 20:50:00",
+          "start_location": {
+            "lat": 12.925,
+            "lon": 77.6131
+          },
+          "end_location": {
+            "lat": 13.0346,
+            "lon": 77.5003
+          },
+          "distance_km": 48.25,
+          "fare": 198.68,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 147,
+          "passenger_id": 1107,
+          "start_time": "2026-09-16 15:37:00",
+          "end_time": "2026-09-16 16:46:00",
+          "start_location": {
+            "lat": 12.9263,
+            "lon": 77.6615
+          },
+          "end_location": {
+            "lat": 13.0373,
+            "lon": 77.5586
+          },
+          "distance_km": 25.78,
+          "fare": 601.45,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 148,
+          "passenger_id": 1011,
+          "start_time": "2026-08-06 06:28:00",
+          "end_time": "2026-08-06 07:54:00",
+          "start_location": {
+            "lat": 12.9122,
+            "lon": 77.6067
+          },
+          "end_location": {
+            "lat": 12.9197,
+            "lon": 77.5837
+          },
+          "distance_km": 8.12,
+          "fare": 744,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 149,
+          "passenger_id": 1096,
+          "start_time": "2026-08-24 17:38:00",
+          "end_time": "2026-08-24 17:51:00",
+          "start_location": {
+            "lat": 12.9324,
+            "lon": 77.5623
+          },
+          "end_location": {
+            "lat": 12.988,
+            "lon": 77.6302
+          },
+          "distance_km": 41.75,
+          "fare": 199.31,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 150,
+          "passenger_id": 1022,
+          "start_time": "2026-09-07 07:29:00",
+          "end_time": "2026-09-07 07:53:00",
+          "start_location": {
+            "lat": 12.9301,
+            "lon": 77.6072
+          },
+          "end_location": {
+            "lat": 13.0143,
+            "lon": 77.6207
+          },
+          "distance_km": 50.64,
+          "fare": 445.73,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 151,
+          "passenger_id": 1136,
+          "start_time": "2026-08-20 12:19:00",
+          "end_time": "2026-08-20 12:32:00",
+          "start_location": {
+            "lat": 13.0146,
+            "lon": 77.5986
+          },
+          "end_location": {
+            "lat": 12.9994,
+            "lon": 77.5187
+          },
+          "distance_km": 57.56,
+          "fare": 199.38,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 152,
+          "passenger_id": 1190,
+          "start_time": "2026-08-19 19:18:00",
+          "end_time": "2026-08-19 19:31:00",
+          "start_location": {
+            "lat": 12.9009,
+            "lon": 77.5451
+          },
+          "end_location": {
+            "lat": 13.0496,
+            "lon": 77.5057
+          },
+          "distance_km": 44.98,
+          "fare": 515.79,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 153,
+          "passenger_id": 1171,
+          "start_time": "2026-09-04 08:49:00",
+          "end_time": "2026-09-04 09:05:00",
+          "start_location": {
+            "lat": 12.9993,
+            "lon": 77.6179
+          },
+          "end_location": {
+            "lat": 12.9866,
+            "lon": 77.6327
+          },
+          "distance_km": 37.83,
+          "fare": 426.45,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 154,
+          "passenger_id": 1048,
+          "start_time": "2026-09-15 12:28:00",
+          "end_time": "2026-09-15 13:25:00",
+          "start_location": {
+            "lat": 13.0951,
+            "lon": 77.638
+          },
+          "end_location": {
+            "lat": 13.0991,
+            "lon": 77.6903
+          },
+          "distance_km": 45.93,
+          "fare": 159.28,
+          "payment_type": "card",
+          "ride_rating": 2
+        },
+        {
+          "ride_id": 155,
+          "passenger_id": 1161,
+          "start_time": "2026-08-30 09:55:00",
+          "end_time": "2026-08-30 11:09:00",
+          "start_location": {
+            "lat": 12.9654,
+            "lon": 77.5608
+          },
+          "end_location": {
+            "lat": 12.9011,
+            "lon": 77.5965
+          },
+          "distance_km": 23.25,
+          "fare": 153.22,
+          "payment_type": "card",
+          "ride_rating": 3
+        }
+      ]
+    },
+    {
+      "driver_id": 10,
+      "name": "Driver 10",
+      "vehicle_type": "Hatchback",
+      "rating": 4.89,
+      "rides": [
+        {
+          "ride_id": 156,
+          "passenger_id": 1188,
+          "start_time": "2026-09-16 02:16:00",
+          "end_time": "2026-09-16 02:52:00",
+          "start_location": {
+            "lat": 12.9606,
+            "lon": 77.543
+          },
+          "end_location": {
+            "lat": 13.0639,
+            "lon": 77.6133
+          },
+          "distance_km": 54.37,
+          "fare": 501.23,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 157,
+          "passenger_id": 1096,
+          "start_time": "2026-09-11 23:49:00",
+          "end_time": "2026-09-12 00:59:00",
+          "start_location": {
+            "lat": 13.0417,
+            "lon": 77.5194
+          },
+          "end_location": {
+            "lat": 12.9168,
+            "lon": 77.5391
+          },
+          "distance_km": 59.13,
+          "fare": 548.78,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 158,
+          "passenger_id": 1001,
+          "start_time": "2026-08-20 02:43:00",
+          "end_time": "2026-08-20 03:48:00",
+          "start_location": {
+            "lat": 13.0122,
+            "lon": 77.5432
+          },
+          "end_location": {
+            "lat": 12.9395,
+            "lon": 77.5115
+          },
+          "distance_km": 21.38,
+          "fare": 516.54,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 159,
+          "passenger_id": 1197,
+          "start_time": "2026-08-17 21:16:00",
+          "end_time": "2026-08-17 21:32:00",
+          "start_location": {
+            "lat": 12.9188,
+            "lon": 77.678
+          },
+          "end_location": {
+            "lat": 13.0058,
+            "lon": 77.6652
+          },
+          "distance_km": 17.81,
+          "fare": 633.63,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 160,
+          "passenger_id": 1064,
+          "start_time": "2026-09-16 15:12:00",
+          "end_time": "2026-09-16 15:52:00",
+          "start_location": {
+            "lat": 12.989,
+            "lon": 77.5723
+          },
+          "end_location": {
+            "lat": 13.0991,
+            "lon": 77.5999
+          },
+          "distance_km": 16.21,
+          "fare": 593.33,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 161,
+          "passenger_id": 1186,
+          "start_time": "2026-08-24 03:45:00",
+          "end_time": "2026-08-24 05:13:00",
+          "start_location": {
+            "lat": 13.0322,
+            "lon": 77.571
+          },
+          "end_location": {
+            "lat": 12.9916,
+            "lon": 77.617
+          },
+          "distance_km": 12.55,
+          "fare": 244.22,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 162,
+          "passenger_id": 1033,
+          "start_time": "2026-09-16 11:25:00",
+          "end_time": "2026-09-16 12:01:00",
+          "start_location": {
+            "lat": 13.0119,
+            "lon": 77.5971
+          },
+          "end_location": {
+            "lat": 12.9254,
+            "lon": 77.6677
+          },
+          "distance_km": 47.54,
+          "fare": 547.64,
+          "payment_type": "card",
+          "ride_rating": 1
+        },
+        {
+          "ride_id": 163,
+          "passenger_id": 1120,
+          "start_time": "2026-09-15 07:12:00",
+          "end_time": "2026-09-15 08:32:00",
+          "start_location": {
+            "lat": 12.9337,
+            "lon": 77.5597
+          },
+          "end_location": {
+            "lat": 12.9077,
+            "lon": 77.5802
+          },
+          "distance_km": 37.16,
+          "fare": 234.8,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 164,
+          "passenger_id": 1048,
+          "start_time": "2026-08-24 23:49:00",
+          "end_time": "2026-08-25 00:12:00",
+          "start_location": {
+            "lat": 13.0343,
+            "lon": 77.5849
+          },
+          "end_location": {
+            "lat": 13.0123,
+            "lon": 77.5886
+          },
+          "distance_km": 56.05,
+          "fare": 396.15,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 165,
+          "passenger_id": 1108,
+          "start_time": "2026-08-17 16:01:00",
+          "end_time": "2026-08-17 16:44:00",
+          "start_location": {
+            "lat": 13.0609,
+            "lon": 77.5427
+          },
+          "end_location": {
+            "lat": 12.9789,
+            "lon": 77.6572
+          },
+          "distance_km": 2.29,
+          "fare": 536.15,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 166,
+          "passenger_id": 1056,
+          "start_time": "2026-09-13 19:39:00",
+          "end_time": "2026-09-13 20:02:00",
+          "start_location": {
+            "lat": 13.0458,
+            "lon": 77.6712
+          },
+          "end_location": {
+            "lat": 13.0425,
+            "lon": 77.635
+          },
+          "distance_km": 58.61,
+          "fare": 671.96,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 167,
+          "passenger_id": 1167,
+          "start_time": "2026-08-16 17:10:00",
+          "end_time": "2026-08-16 18:22:00",
+          "start_location": {
+            "lat": 13.0666,
+            "lon": 77.6974
+          },
+          "end_location": {
+            "lat": 12.9379,
+            "lon": 77.5679
+          },
+          "distance_km": 28.2,
+          "fare": 360.97,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 168,
+          "passenger_id": 1143,
+          "start_time": "2026-08-22 09:00:00",
+          "end_time": "2026-08-22 09:17:00",
+          "start_location": {
+            "lat": 13.0992,
+            "lon": 77.6961
+          },
+          "end_location": {
+            "lat": 13.0132,
+            "lon": 77.6832
+          },
+          "distance_km": 58.33,
+          "fare": 772.57,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 169,
+          "passenger_id": 1067,
+          "start_time": "2026-09-18 22:29:00",
+          "end_time": "2026-09-18 23:55:00",
+          "start_location": {
+            "lat": 13.0484,
+            "lon": 77.6609
+          },
+          "end_location": {
+            "lat": 12.9318,
+            "lon": 77.6636
+          },
+          "distance_km": 31.49,
+          "fare": 721.28,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 170,
+          "passenger_id": 1194,
+          "start_time": "2026-09-16 06:37:00",
+          "end_time": "2026-09-16 07:01:00",
+          "start_location": {
+            "lat": 12.9054,
+            "lon": 77.5703
+          },
+          "end_location": {
+            "lat": 12.9423,
+            "lon": 77.5628
+          },
+          "distance_km": 17.66,
+          "fare": 270.62,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 171,
+          "passenger_id": 1079,
+          "start_time": "2026-09-14 10:07:00",
+          "end_time": "2026-09-14 10:18:00",
+          "start_location": {
+            "lat": 13.0347,
+            "lon": 77.5773
+          },
+          "end_location": {
+            "lat": 13.0933,
+            "lon": 77.6024
+          },
+          "distance_km": 3.18,
+          "fare": 505.3,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 172,
+          "passenger_id": 1011,
+          "start_time": "2026-09-01 04:37:00",
+          "end_time": "2026-09-01 04:58:00",
+          "start_location": {
+            "lat": 13.029,
+            "lon": 77.6498
+          },
+          "end_location": {
+            "lat": 12.9917,
+            "lon": 77.5122
+          },
+          "distance_km": 2.97,
+          "fare": 343.15,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 173,
+          "passenger_id": 1132,
+          "start_time": "2026-08-21 03:05:00",
+          "end_time": "2026-08-21 04:13:00",
+          "start_location": {
+            "lat": 12.9861,
+            "lon": 77.5663
+          },
+          "end_location": {
+            "lat": 12.9476,
+            "lon": 77.5746
+          },
+          "distance_km": 29.95,
+          "fare": 64.73,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 174,
+          "passenger_id": 1171,
+          "start_time": "2026-08-28 05:42:00",
+          "end_time": "2026-08-28 06:04:00",
+          "start_location": {
+            "lat": 13.0159,
+            "lon": 77.6595
+          },
+          "end_location": {
+            "lat": 13.0858,
+            "lon": 77.5227
+          },
+          "distance_km": 12.23,
+          "fare": 628.37,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 175,
+          "passenger_id": 1073,
+          "start_time": "2026-08-22 08:38:00",
+          "end_time": "2026-08-22 09:48:00",
+          "start_location": {
+            "lat": 12.9266,
+            "lon": 77.6029
+          },
+          "end_location": {
+            "lat": 13.0365,
+            "lon": 77.6253
+          },
+          "distance_km": 58.35,
+          "fare": 535.93,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 176,
+          "passenger_id": 1063,
+          "start_time": "2026-08-19 15:44:00",
+          "end_time": "2026-08-19 16:08:00",
+          "start_location": {
+            "lat": 13.0529,
+            "lon": 77.6352
+          },
+          "end_location": {
+            "lat": 13.0673,
+            "lon": 77.5568
+          },
+          "distance_km": 19.32,
+          "fare": 149.38,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 177,
+          "passenger_id": 1119,
+          "start_time": "2026-08-07 09:49:00",
+          "end_time": "2026-08-07 10:02:00",
+          "start_location": {
+            "lat": 12.9952,
+            "lon": 77.5357
+          },
+          "end_location": {
+            "lat": 12.9808,
+            "lon": 77.6947
+          },
+          "distance_km": 59.26,
+          "fare": 450.93,
+          "payment_type": "card",
+          "ride_rating": 5
+        }
+      ]
+    },
+    {
+      "driver_id": 11,
+      "name": "Driver 11",
+      "vehicle_type": "Sedan",
+      "rating": 4.03,
+      "rides": [
+        {
+          "ride_id": 178,
+          "passenger_id": 1172,
+          "start_time": "2026-08-26 06:24:00",
+          "end_time": "2026-08-26 06:42:00",
+          "start_location": {
+            "lat": 12.9905,
+            "lon": 77.5856
+          },
+          "end_location": {
+            "lat": 13.013,
+            "lon": 77.5093
+          },
+          "distance_km": 39.81,
+          "fare": 577.8,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 179,
+          "passenger_id": 1118,
+          "start_time": "2026-08-31 13:09:00",
+          "end_time": "2026-08-31 14:26:00",
+          "start_location": {
+            "lat": 13.04,
+            "lon": 77.5816
+          },
+          "end_location": {
+            "lat": 13.0815,
+            "lon": 77.5463
+          },
+          "distance_km": 27.83,
+          "fare": 643.28,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 180,
+          "passenger_id": 1074,
+          "start_time": "2026-08-18 10:32:00",
+          "end_time": "2026-08-18 10:49:00",
+          "start_location": {
+            "lat": 12.932,
+            "lon": 77.5615
+          },
+          "end_location": {
+            "lat": 13.058,
+            "lon": 77.6526
+          },
+          "distance_km": 50.61,
+          "fare": 116.89,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 181,
+          "passenger_id": 1014,
+          "start_time": "2026-08-07 09:38:00",
+          "end_time": "2026-08-07 10:53:00",
+          "start_location": {
+            "lat": 13.0385,
+            "lon": 77.6707
+          },
+          "end_location": {
+            "lat": 13.0908,
+            "lon": 77.689
+          },
+          "distance_km": 2.18,
+          "fare": 346.98,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 182,
+          "passenger_id": 1168,
+          "start_time": "2026-08-07 18:20:00",
+          "end_time": "2026-08-07 18:38:00",
+          "start_location": {
+            "lat": 13.0261,
+            "lon": 77.5243
+          },
+          "end_location": {
+            "lat": 13.0795,
+            "lon": 77.6033
+          },
+          "distance_km": 48.76,
+          "fare": 720.28,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 183,
+          "passenger_id": 1014,
+          "start_time": "2026-09-17 10:06:00",
+          "end_time": "2026-09-17 10:34:00",
+          "start_location": {
+            "lat": 12.9538,
+            "lon": 77.5605
+          },
+          "end_location": {
+            "lat": 13.0871,
+            "lon": 77.6213
+          },
+          "distance_km": 20.62,
+          "fare": 469.75,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 184,
+          "passenger_id": 1150,
+          "start_time": "2026-08-23 17:10:00",
+          "end_time": "2026-08-23 18:09:00",
+          "start_location": {
+            "lat": 13.0958,
+            "lon": 77.6707
+          },
+          "end_location": {
+            "lat": 12.9016,
+            "lon": 77.615
+          },
+          "distance_km": 10.07,
+          "fare": 393.39,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 185,
+          "passenger_id": 1104,
+          "start_time": "2026-08-18 19:56:00",
+          "end_time": "2026-08-18 20:09:00",
+          "start_location": {
+            "lat": 13.0793,
+            "lon": 77.6169
+          },
+          "end_location": {
+            "lat": 13.0325,
+            "lon": 77.602
+          },
+          "distance_km": 15.58,
+          "fare": 735.41,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 186,
+          "passenger_id": 1192,
+          "start_time": "2026-09-04 08:02:00",
+          "end_time": "2026-09-04 08:54:00",
+          "start_location": {
+            "lat": 12.9413,
+            "lon": 77.5885
+          },
+          "end_location": {
+            "lat": 13.0228,
+            "lon": 77.6304
+          },
+          "distance_km": 38.35,
+          "fare": 591.06,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 187,
+          "passenger_id": 1031,
+          "start_time": "2026-09-02 14:41:00",
+          "end_time": "2026-09-02 14:48:00",
+          "start_location": {
+            "lat": 12.9943,
+            "lon": 77.6859
+          },
+          "end_location": {
+            "lat": 12.9291,
+            "lon": 77.582
+          },
+          "distance_km": 5.85,
+          "fare": 748.15,
+          "payment_type": "cash",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 188,
+          "passenger_id": 1071,
+          "start_time": "2026-08-05 18:42:00",
+          "end_time": "2026-08-05 19:45:00",
+          "start_location": {
+            "lat": 13.0778,
+            "lon": 77.591
+          },
+          "end_location": {
+            "lat": 13.0819,
+            "lon": 77.649
+          },
+          "distance_km": 45.73,
+          "fare": 375.3,
+          "payment_type": "card",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 189,
+          "passenger_id": 1046,
+          "start_time": "2026-08-31 17:05:00",
+          "end_time": "2026-08-31 18:26:00",
+          "start_location": {
+            "lat": 12.9493,
+            "lon": 77.551
+          },
+          "end_location": {
+            "lat": 12.9016,
+            "lon": 77.6724
+          },
+          "distance_km": 25.25,
+          "fare": 570.91,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 190,
+          "passenger_id": 1101,
+          "start_time": "2026-08-08 16:09:00",
+          "end_time": "2026-08-08 17:38:00",
+          "start_location": {
+            "lat": 13.006,
+            "lon": 77.5257
+          },
+          "end_location": {
+            "lat": 12.91,
+            "lon": 77.5074
+          },
+          "distance_km": 57.76,
+          "fare": 310.31,
+          "payment_type": "cash",
+          "ride_rating": 5
+        }
+      ]
+    },
+    {
+      "driver_id": 12,
+      "name": "Driver 12",
+      "vehicle_type": "Hatchback",
+      "rating": 4.91,
+      "rides": [
+        {
+          "ride_id": 191,
+          "passenger_id": 1152,
+          "start_time": "2026-08-08 06:28:00",
+          "end_time": "2026-08-08 07:06:00",
+          "start_location": {
+            "lat": 13.0895,
+            "lon": 77.6533
+          },
+          "end_location": {
+            "lat": 13.0918,
+            "lon": 77.6783
+          },
+          "distance_km": 59.52,
+          "fare": 267.54,
+          "payment_type": "cash",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 192,
+          "passenger_id": 1137,
+          "start_time": "2026-08-20 17:53:00",
+          "end_time": "2026-08-20 18:41:00",
+          "start_location": {
+            "lat": 13.0638,
+            "lon": 77.5754
+          },
+          "end_location": {
+            "lat": 12.9087,
+            "lon": 77.5908
+          },
+          "distance_km": 6.66,
+          "fare": 252.96,
+          "payment_type": "cash",
+          "ride_rating": 3
+        },
+        {
+          "ride_id": 193,
+          "passenger_id": 1006,
+          "start_time": "2026-09-11 18:44:00",
+          "end_time": "2026-09-11 19:13:00",
+          "start_location": {
+            "lat": 13.0937,
+            "lon": 77.684
+          },
+          "end_location": {
+            "lat": 12.9314,
+            "lon": 77.5101
+          },
+          "distance_km": 50.11,
+          "fare": 147.42,
+          "payment_type": "card",
+          "ride_rating": 4
+        },
+        {
+          "ride_id": 194,
+          "passenger_id": 1159,
+          "start_time": "2026-08-15 09:35:00",
+          "end_time": "2026-08-15 10:59:00",
+          "start_location": {
+            "lat": 12.9834,
+            "lon": 77.5656
+          },
+          "end_location": {
+            "lat": 12.9256,
+            "lon": 77.573
+          },
+          "distance_km": 36.18,
+          "fare": 619.39,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 195,
+          "passenger_id": 1005,
+          "start_time": "2026-08-21 19:16:00",
+          "end_time": "2026-08-21 19:24:00",
+          "start_location": {
+            "lat": 12.9124,
+            "lon": 77.653
+          },
+          "end_location": {
+            "lat": 12.949,
+            "lon": 77.5235
+          },
+          "distance_km": 48.5,
+          "fare": 787.15,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 196,
+          "passenger_id": 1068,
+          "start_time": "2026-09-05 15:16:00",
+          "end_time": "2026-09-05 16:17:00",
+          "start_location": {
+            "lat": 12.9686,
+            "lon": 77.6389
+          },
+          "end_location": {
+            "lat": 12.9884,
+            "lon": 77.5728
+          },
+          "distance_km": 46.08,
+          "fare": 631.78,
+          "payment_type": "card",
+          "ride_rating": 5
+        },
+        {
+          "ride_id": 197,
+          "passenger_id": 1117,
+          "start_time": "2026-08-28 17:33:00",
+          "end_time": "2026-08-28 17:39:00",
+          "start_location": {
+            "lat": 12.9215,
+            "lon": 77.5951
+          },
+          "end_location": {
+            "lat": 13.0861,
+            "lon": 77.559
+          },
+          "distance_km": 27.76,
+          "fare": 546.23,
+          "payment_type": "card",
+          "ride_rating": 5
+        }
+      ]
+    }
+  ]
+}
